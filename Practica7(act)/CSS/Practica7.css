@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');/*estilo de el titulo*/
+body{
+    background-color: #e0b046;
+    overflow:hidden;display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#cabecera{
+    width: 100vw;
+    height:25vh;
+    display:flex;
+    justify-content: space-between;
+}
+#cuerpo{
+    width: 100vw;
+    height:60vh;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+#pie{
+    width: 100vw;
+    height:15vh;
+    background-color: #dbd78d;
+    align-content: center;
+}
+h1{
+    font-weight: 800;
+    font-style: normal;
+    font-size: 400%;
+}
+.letraRoja{
+    font-family: "Bungee Tint", sans-serif;
+}
+.letraNormal{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#cajaTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sect1{/*sect1, 2 y 3 pertenecen al cuerpo(main)*/
+    width: 80%;
+    height:25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#sect2{
+    width: 80%;
+    height:25%;
+    justify-content: center;
+}
+#sect3{
+    width: 80%;
+    height:25%;
+    
+}
+#img1{/*imagen batman*/
+    width:100%;
+    max-height:100%;
+}
+#textoPie{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.subtext{
+    align-items: center;
+}
+.elementosLista{
+    display:inline;
+}
